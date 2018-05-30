@@ -1,0 +1,36 @@
+.container {
+  background-color: white;
+  height: 600px;
+  font-family: 'Pacifico', cursive;
+}
+.iconos_lista {
+  list-style:none;
+}
+
+.row {
+  border: 2px solid white;
+}
+
+img {
+  width: 100%;
+}
+.titulo {
+  text-align: center;
+}
+.primera_seccion {
+  text-align: justify;
+  padding: 5%;
+  font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width:424px) {
+  [class*="col-"] {
+    width:100%;
+    text-align: center;
+    }
+  .teque {
+  content: url("teque2.jpg")
+  }
+
+}
+
